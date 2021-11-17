@@ -1,6 +1,46 @@
+<<<<<<< HEAD
+target
+.vscode
+.idea
+*.log
+*.tmp
+*.iml
+*.gz
+*.jar
+*.hprof
+.project
+.settings/
+.classpath
+api/
+core/bin/
+core/src/main/resources/
+/src/main/java/br/com/pagseguro/avro/
+/src/main/generated/
+/src/main/resources/version.txt
+
+charge-engine-api/bin/
+charge-engine-core/bin/
+charge-engine-api/.classpath
+charge-engine-api/.project
+charge-engine-api/.settings/
+charge-engine-core/.classpath
+charge-engine-core/.project
+charge-engine-core/.settings/
+charge-engine-api/src/main/resources/application-local.properties
+
+### Gradle ###
+.gradle
+**/build/
+**/out/
+gradlew.bat
+!gradle-wrapper.jar
+/.metadata/
+nohup.out
+=======
 .idea**
 .gradle**
 
 
 .idea/**
 .gradle/**
+>>>>>>> 860b96df7b484d7fb35d2a74c0d8fc36b5ed9766
