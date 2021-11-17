@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target
 .vscode
 .idea
@@ -35,3 +36,11 @@ gradlew.bat
 !gradle-wrapper.jar
 /.metadata/
 nohup.out
+=======
+.idea**
+.gradle**
+
+
+.idea/**
+.gradle/**
+>>>>>>> 860b96df7b484d7fb35d2a74c0d8fc36b5ed9766
