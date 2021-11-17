@@ -20,8 +20,9 @@ public class MailService {
     private AmazonSimpleEmailService amazonSimpleEmailService;
 
     public void sendEmail(String email) {
-        final String body = "Bem vindo ao DIO TQI 2021";
-        final String subject = "DIO message " + new Random().nextInt();
+        final String body = String.format("Olá %s nós do Banco X identificamos que você acaba de realizar uma transação. " +
+                "\nCaso não tenha sindo você entre em contato o quanto antes para verificarmos a sua situação\n\n", email);
+        final String subject = "Você acabou de realizar uma transação " + new Random().nextInt();
         SendEmailRequest request = new SendEmailRequest()
                 .withDestination(new Destination().withToAddresses(email))
                 .withMessage(new Message()
