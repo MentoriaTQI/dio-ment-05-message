@@ -15,12 +15,11 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.springframework:spring-jms'
+	implementation 'org.springframework.cloud:spring-cloud-aws-messaging:2.2.6.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-	implementation group: 'com.amazonaws', name: 'amazon-sqs-java-messaging-lib', version: '1.0.4'
 	implementation group: 'com.amazonaws', name: 'aws-java-sdk-ses', version: '1.12.12'
 }
 
